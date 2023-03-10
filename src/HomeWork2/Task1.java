@@ -35,6 +35,7 @@ public class Task1 {
        driver.findElement(By.xpath("//input[@value='Register']")).click();
 
        Thread.sleep(4000);
+
         driver.quit();
 
 

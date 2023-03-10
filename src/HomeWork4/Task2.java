@@ -24,6 +24,7 @@ public class Task2 {
         driver.get("http://practice.syntaxtechs.net/basic-checkbox-demo.php");
 
 
+        
        List<WebElement>  checkBoxes=driver.findElements(By.xpath("//input[@class='cb1-element']"));
 
         for (WebElement x:checkBoxes) {

@@ -38,9 +38,9 @@ public class Task2 {
         driver.findElement(By.name("birthday_day")).sendKeys("15");
         driver.findElement(By.name("birthday_year")).sendKeys("1999");
         driver.findElement(By.xpath("//label[text()='Male']")).click();
-       driver.findElement(By.name("websubmit")).click();
+      driver.findElement(By.name("websubmit")).click();
        Thread.sleep(3000);
-       driver.navigate().to("https://www.facebook.com/");
+        driver.navigate().to("https://www.facebook.com/");
       Thread.sleep(3000);
       driver.quit();
 
